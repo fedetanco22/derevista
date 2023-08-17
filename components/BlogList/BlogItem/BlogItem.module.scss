@@ -1,0 +1,20 @@
+.blogItem {
+  border: 0px none;
+  overflow-x: hidden;
+
+  &__content {
+    flex: 3;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  &__image {
+    flex: 2;
+    border-radius: var(--border-radius);
+
+    & img {
+      border-radius: var(--border-radius);
+      object-fit: cover;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

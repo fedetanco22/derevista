@@ -19,8 +19,8 @@ export interface BlogItemProps {
 const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
   const { image, title, subtitle, text } = data
   return (
-    <div className={`${styles.box} flex`}>
-      <div className={styles.box__image}>
+    <div className={`${styles.blogItem} flex`}>
+      <div className={styles.blogItem__image}>
         <Image
           src={image}
           priority={true}
@@ -29,10 +29,10 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
           height="0"
           sizes={`(max-width: 768px) 100vw`}
           style={{ width: '100%', height: 'auto' }}
-          alt="el escultor del pueblo"
+          alt={title}
         />
       </div>
-      <div className={`${styles.box__content} `}>
+      <div className={`${styles.blogItem__content} `}>
         <div>
           <Text
             as="h2"
