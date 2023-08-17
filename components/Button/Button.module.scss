@@ -1,0 +1,32 @@
+.button {
+  cursor: pointer;
+  align-items: flex-start;
+  background-color: var(--yellow);
+  display: inline-flex;
+  gap: 12px;
+  padding: 16px 48px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: var(--border-radius);
+  margin-top: 1rem;
+  max-width: fit-content;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--yellow, #ffd050);
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button .read-more {
+  color: var(--black);
+  font-family: 'Sen', Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "image": "/images/artista.svg",
+        "title": "Title 1",
+        "subtitle": "Subtitle 1",
+        "text": "Text 1"
+    },
+    {
+        "image": "/images/arguello.svg",
+        "title": "Title 2",
+        "subtitle": "Subtitle 2",
+        "text": "Text 2"
+    },
+    {
+        "image": "/images/proyeccions.svg",
+        "title": "Title 3",
+        "subtitle": "Subtitle 3",
+        "text": "Text 3"
+    }
+]
