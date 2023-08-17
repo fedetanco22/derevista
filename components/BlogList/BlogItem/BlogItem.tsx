@@ -24,7 +24,7 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
         <Image
           src={image}
           priority={true}
-          quality={100}
+          quality={85}
           width="0"
           height="0"
           sizes={`(max-width: 768px) 100vw`}
