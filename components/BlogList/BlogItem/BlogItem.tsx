@@ -32,29 +32,24 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
           alt={title}
         />
       </div>
-      <div className={`${styles.blogItem__content} `}>
-        <div>
-          <Text
-            as="h2"
-            variant="headline-2"
-            color="primary"
-            fontWeight="medium"
-          >
-            {subtitle}
-          </Text>
+      <div
+        className={`${styles.blogItem__content} flex-column justifyBetween `}
+      >
+        <Text as="h2" variant="headline-2" color="primary" fontWeight="medium">
+          {subtitle}
+        </Text>
 
-          <Text
-            as="h1"
-            variant="headline-1"
-            color="primary"
-            fontWeight="extra-bold"
-          >
-            {title}
-          </Text>
-          <Text as="p" variant="body-1" color="light">
-            {text}
-          </Text>
-        </div>
+        <Text
+          as="h1"
+          variant="headline-1"
+          color="primary"
+          fontWeight="extra-bold"
+        >
+          {title}
+        </Text>
+        <Text as="p" variant="body-1" color="light" alignment="justify">
+          {text}
+        </Text>
       </div>
     </div>
   )

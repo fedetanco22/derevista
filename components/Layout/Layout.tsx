@@ -18,12 +18,12 @@ const Layout: React.FC<LayoutProps> = ({
   keywords,
 }) => {
   return (
-    <div>
+    <>
       <SEO title={title} description={description} keywords={keywords} />
       <Navbar />
       <main>{children}</main>
       <Footer />
-    </div>
+    </>
   )
 }
 

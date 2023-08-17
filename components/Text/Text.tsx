@@ -5,7 +5,7 @@ import style from './Text.module.scss'
 type Element = 'h1' | 'h2' | 'h3' | 'p' | 'span' | 'a'
 type Variant = 'text' | 'headline-1' | 'headline-2' | 'body-1'
 type FontWeight = 'normal' | 'medium' | 'bold' | 'extra-bold'
-type Alignment = 'left' | 'center'
+type Alignment = 'left' | 'center' | 'right' | 'justify'
 type Color = 'white' | 'light' | 'primary'
 
 type TextProps = {

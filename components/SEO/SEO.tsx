@@ -8,9 +8,13 @@ interface SEOProps {
 }
 
 const SEO: FC<SEOProps> = ({ title, description, keywords }) => {
-  const metaDescription = description || 'Some default description'
-  const defaultTitle = title || 'Paisanos Challenge'
-  const defaultKeywords = keywords || 'Marketplace, NFT, more keywords'
+  const metaDescription =
+    description ||
+    'Espacio cultural y social en las villas de Cordoba Captial. Santiago Garzon el artista. Denominado el artista del pueblo'
+  const defaultTitle = title || 'Atelier De Revista - Social y Cultural'
+  const defaultKeywords =
+    keywords ||
+    'Atelier, Revista, Social, Cultural, Santiago, Garzón, garza, obras de arte, gallo, arguello, villas, arte en las villas, artista del pueblo '
 
   return (
     <Head>
