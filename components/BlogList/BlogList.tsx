@@ -8,7 +8,7 @@ import data from '@/data/blogData.json'
 const BlogList = (): JSX.Element => {
   return (
     <div className="container">
-      <Text as="h2" variant="headline-2" fontWeight="bold">
+      <Text as="h2" variant="headline-1" fontWeight="bold" color="primary">
         Secciones
       </Text>
       <Divider />

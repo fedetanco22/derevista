@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 import Button from '../Button/Button'
+import Text from '../Text/Text'
 
 import styles from './ContentBox.module.scss'
 
@@ -12,11 +13,26 @@ const ContentBox = (): JSX.Element => {
     <div className={`${styles.box} flex`}>
       <div className={`${styles.box__content} `}>
         <div>
-          <div className={styles.box__subtitle}>El Escultor del pueblo</div>
-          <p className={styles.box__title}>
+          <Text
+            as="h2"
+            variant="headline-2"
+            color="primary"
+            fontWeight="medium"
+          >
+            El Escultor del pueblo
+          </Text>
+
+          <Text
+            as="h1"
+            variant="headline-1"
+            color="primary"
+            fontWeight="extra-bold"
+          >
             Atelier De Revista - Social y Cultural
-          </p>
-          <p className={styles.box__text}>Texto descripcion de la imagen</p>
+          </Text>
+          <Text as="p" variant="body-1" color="light">
+            Texto descripcion de la imagen
+          </Text>
         </div>
         <Button text="Galería de fotos" />
       </div>

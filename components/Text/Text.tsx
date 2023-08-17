@@ -3,19 +3,10 @@ import React, { memo, ReactNode } from 'react'
 import style from './Text.module.scss'
 
 type Element = 'h1' | 'h2' | 'h3' | 'p' | 'span' | 'a'
-type Variant =
-  | 'text'
-  | 'headline-1'
-  | 'headline-2'
-  | 'headline-4'
-  | 'body-1'
-  | 'body-2'
-  | 'caption'
-  | 'caption-2'
-  | 'hairline'
+type Variant = 'text' | 'headline-1' | 'headline-2' | 'body-1'
 type FontWeight = 'normal' | 'medium' | 'bold' | 'extra-bold'
 type Alignment = 'left' | 'center'
-type Color = 'white' | 'light' | 'primary' | 'secondary'
+type Color = 'white' | 'light' | 'primary'
 
 type TextProps = {
   /** Text to display */
