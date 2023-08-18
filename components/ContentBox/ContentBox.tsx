@@ -12,7 +12,7 @@ const ContentBox = (): JSX.Element => {
   return (
     <div className={styles.container}>
       <div className={`${styles.box} flex container`}>
-        <div className={`${styles.box__content} `}>
+        <div className={`${styles.box__content} flex-column flex-around`}>
           <div>
             <Text
               as="h2"
@@ -37,7 +37,7 @@ const ContentBox = (): JSX.Element => {
           </div>
           <Button text="Galería de fotos" />
         </div>
-        <div className={styles.box__image}>
+        <div className={`${styles.box__image} images`}>
           <Image
             src={mainImage}
             priority={true}

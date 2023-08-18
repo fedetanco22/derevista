@@ -1,4 +1,8 @@
 .navbar {
   height: 5rem;
   background-color: var(--black);
+
+  &__width {
+    width: 100%;
+  }
 }
