@@ -41,7 +41,7 @@ const ContentBox: FC<{ data: BlogPostData }> = data => {
             </Text>
           </div>
           {router.route === '/' && (
-            <Button onClick={() => router.push('/photo-gallery')}>
+            <Button onClick={() => router.push('/galeria-fotos')}>
               Galería de fotos
             </Button>
           )}

@@ -11,7 +11,10 @@
 
   &__content {
     flex: 1;
-    padding: 0 0 0 3rem;
+
+    @media screen and (min-width: 768px) {
+      padding: 0 0 0 3rem;
+    }
   }
 
   &__image {

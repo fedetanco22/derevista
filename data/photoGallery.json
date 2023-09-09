@@ -1,22 +1,47 @@
 [
     {
         "id": 0,
-        "image": "/images/artista.jpg"
+        "alt": "Artista",
+        "image": "/images/artista.svg"
     },
     {
         "id": 1,
+        "alt": "Arguello",
         "image": "/images/arguello.svg"
     },
     {
         "id": 2,
+        "alt": "Proyecciones",
         "image": "/images/proyeccions.svg"
     },
     {
         "id": 3,
+        "alt": "Obras",
         "image": "/images/obras.svg"
     },
     {
         "id": 4,
-        "image": "/images/proyeccions.svg"
+        "alt": "Artista perfil",
+        "image": "/images/artista/artista2.svg"
+    },
+    {
+        "id": 5,
+        "alt": "Artista perfil",
+        "image": "/images/derevista/1.svg"
+    },
+    {
+        "id": 6,
+        "alt": "",
+        "image": "/images/derevista/main.svg"
+    },
+    {
+        "id": 7,
+        "alt": "Artista perfil",
+        "image": "/images/villas/1.svg"
+    },
+    {
+        "id": 8,
+        "alt": "Artista perfil",
+        "image": "/images/villas/2.svg"
     }
 ]

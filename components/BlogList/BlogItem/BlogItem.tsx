@@ -27,12 +27,12 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
         />
       </div>
       <div className={`${styles.blogItem__content} flex-column `}>
-        <Text as="h2" variant="headline-2" color="primary" fontWeight="medium">
+        <Text as="h3" variant="headline-2" color="primary" fontWeight="medium">
           {subtitle}
         </Text>
 
         <Text
-          as="h1"
+          as="h2"
           variant="headline-1"
           color="primary"
           fontWeight="extra-bold"
