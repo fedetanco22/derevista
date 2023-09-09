@@ -49,6 +49,14 @@
         ],
         "newlines-between": "always"
       }
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "typeParameter",
+        "format": ["PascalCase"],
+        "custom": { "regex": "^T[A-Z]", "match": true }
+      }
     ]
   },
   "overrides": [

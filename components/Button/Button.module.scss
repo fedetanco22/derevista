@@ -4,7 +4,7 @@
   background-color: var(--yellow);
   display: inline-flex;
   gap: 12px;
-  padding: 16px 48px;
+  padding: 1rem 2rem;
   position: relative;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: var(--border-radius);
@@ -20,7 +20,6 @@
 
 .button .read-more {
   color: var(--black);
-  font-family: 'Sen', Helvetica;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0;

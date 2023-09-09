@@ -32,9 +32,13 @@ body {
 }
 
 .container {
-  padding: 3rem;
+  padding: 1.5rem;
   max-width: var(--max-width);
   margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    padding: 3rem;
+  }
 }
 
 a {
@@ -78,6 +82,10 @@ a {
 
 .flex-around {
   justify-content: space-around;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .images {

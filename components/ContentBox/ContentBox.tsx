@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { FC } from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 import Button from '../Button/Button'
 import Text from '../Text/Text'
 
 import styles from './ContentBox.module.scss'
 
-import mainImage from '@/public/images/main.svg'
+import { BlogPostData } from '@/types/types'
 
-const ContentBox = (): JSX.Element => {
+const ContentBox: FC<{ data: BlogPostData }> = data => {
+  const { title, subtitle, text, main_image } = data.data
+
+  const router = useRouter()
+
   return (
     <div className={styles.container}>
-      <div className={`${styles.box} flex container`}>
-        <div className={`${styles.box__content} flex-column flex-around`}>
+      <div className={`${styles.box} container`}>
+        <div className={`${styles.box__content} flex-column`}>
           <div>
             <Text
               as="h2"
@@ -20,7 +25,7 @@ const ContentBox = (): JSX.Element => {
               color="primary"
               fontWeight="medium"
             >
-              El Escultor del pueblo
+              {subtitle}
             </Text>
 
             <Text
@@ -29,17 +34,21 @@ const ContentBox = (): JSX.Element => {
               color="primary"
               fontWeight="extra-bold"
             >
-              Atelier De Revista - Social y Cultural
+              {title}
             </Text>
             <Text as="p" variant="body-1" color="light">
-              Texto descripcion de la imagen
+              {text}
             </Text>
           </div>
-          <Button text="Galería de fotos" />
+          {router.route === '/' && (
+            <Button onClick={() => router.push('/photo-gallery')}>
+              Galería de fotos
+            </Button>
+          )}
         </div>
-        <div className={`${styles.box__image} images`}>
+        <div className={`${styles.box__image} images flex flex-center-align `}>
           <Image
-            src={mainImage}
+            src={main_image}
             priority={true}
             quality={85}
             width="0"

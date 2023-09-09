@@ -1,30 +1,42 @@
 [
     {
         "id": "1",
-        "image": "/images/artista.svg",
+        "main_image": "/images/artista.svg",
+        "image_list": ["image1", "image2", "image3"],
         "title": "Llamarse artista en el simple arte",
         "subtitle": "Presentación",
         "text": "Llamarse artista en el simple arte de aprender. Cuando empecé a ordenar ideas y pensamientos, sabia sumergirte. Obra. De Revista es la obra a conocer para poder llegar al interior el artista y penetran en una misma.  La diferencia del conocimiento suele ser la y atracción hacia el ser. En el arte encuentro esa intención que busque afuera y encontré en mí."
     },
     {
         "id": "2",
-        "image": "/images/arguello.svg",
+        "main_image": "/images/arguello.svg",
+        "image_list": ["image1", "image2", "image3"],
         "title": "Más de 300 obras en su primer período",
         "subtitle": "mi camino al arte",
         "text": "Más de 300 son sus obras en su primer periodo. Solo falta recorrer los distintos puntos públicos donde el artista ha dejado su impronta. Su colección privada de obras es la que el artista desea acompañar en catálogo, de las cuales todas están a consideración y criterio del artista. El hecho de desprenderse de alguna en caso de alguien querer poseerla."
     },
     {
         "id": "3",
-        "image": "/images/proyeccions.svg",
+        "main_image": "/images/proyeccions.svg",
+        "image_list": ["image1", "image2", "image3"],
         "title": "Las Proyecciones del Artista",
         "subtitle": "mis proyecciones",
         "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
     },
     {
         "id": "4",
-        "image": "/images/obras.svg",
+        "main_image": "/images/obras.svg",
+        "image_list": ["image1", "image2", "image3"],
         "title": "Obras del Artista",
         "subtitle": "Obras en si",
         "text": "Más de 300 son sus obras en su primer periodo. Solo falta recorrer los distintos puntos públicos donde el artista ha dejado su impronta. Su colección privada de obras es la que el artista desea acompañar en catálogo, de lcuales todas están a consideración y criterio del artista. El hecho de desprenderse alguna en caso de alguien querer poseerla."
+    },
+    {
+        "id": "5",
+        "main_image": "/images/proyeccions.svg",
+        "image_list": ["image1", "image2", "image3"],
+        "title": "Titulo Nuevo",
+        "subtitle": "mis proyecciones",
+        "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
     }
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "image": "/images/artista.jpg"
+    },
+    {
+        "id": 1,
+        "image": "/images/arguello.svg"
+    },
+    {
+        "id": 2,
+        "image": "/images/proyeccions.svg"
+    },
+    {
+        "id": 3,
+        "image": "/images/obras.svg"
+    },
+    {
+        "id": 4,
+        "image": "/images/proyeccions.svg"
+    }
+]

@@ -5,25 +5,18 @@ import styles from './BlogItem.module.scss'
 
 import Text from '@/components/Text/Text'
 import Button from '@/components/Button/Button'
-
-interface BlogItem {
-  id: string
-  image: string
-  title: string
-  subtitle: string
-  text: string
-}
+import { BlogPostData } from '@/types/types'
 export interface BlogItemProps {
-  data: BlogItem
+  data: BlogPostData
 }
 
 const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
-  const { image, title, subtitle, text } = data
+  const { main_image, title, subtitle, text } = data
   return (
-    <div className={`${styles.blogItem} flex`}>
+    <div className={`${styles.blogItem} `}>
       <div className={`${styles.blogItem__image} images`}>
         <Image
-          src={image}
+          src={main_image}
           priority={true}
           quality={85}
           width="0"
@@ -50,7 +43,9 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
           {text}
         </Text>
         <div>
-          <Button text="Ver más" />
+          <Button>
+            <p className={styles.blogItem__readmore}>Ver más</p>
+          </Button>
         </div>
       </div>
     </div>

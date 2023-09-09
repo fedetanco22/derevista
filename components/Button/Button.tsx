@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { FC } from 'react'
 
 import styles from './Button.module.scss'
 
-interface Props {
+interface ButtonProps {
+  children?: JSX.Element | string
   className?: string
-  text: string
+  onClick?: () => void
 }
 
-const Button = ({ className, text = 'Read More &gt;' }: Props): JSX.Element => {
+const Button: FC<ButtonProps> = ({ className, children, onClick }) => {
   return (
-    <div className={`${styles.button} styles.${className}`}>
-      <div className="read-more">{text}</div>
+    <div className={`${styles.button} styles.${className}`} onClick={onClick}>
+      <div className="read-more">{children}</div>
     </div>
   )
 }

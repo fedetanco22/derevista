@@ -3,12 +3,30 @@
   overflow-x: hidden;
   margin: 1rem 0;
 
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
   &__content {
-    flex: 5;
-    padding: 0 3rem;
+    flex: 1;
+    padding: 0 0 0 3rem;
   }
 
   &__image {
-    flex: 4;
+    flex: 1;
+  }
+
+  &__readmore {
+    margin: 0;
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    margin-top: -1px;
+    white-space: nowrap;
+    width: fit-content;
   }
 }
