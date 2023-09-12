@@ -30,8 +30,8 @@
             "/images/camino-al-arte/9.svg",
             "/images/camino-al-arte/10.svg"
         ],
-        "title": "Más de 300 obras en su primer período",
-        "subtitle": "mi camino al arte",
+        "title": "Mi camino al arte",
+        "subtitle": "",
         "text": "Llamarse artista en el simple arte de aprender. Cuando empecé a desordenar ideas y ordenar pensamientos, salió semejante obra. De Revista es la obra a conocer para poder llegar al interior del artista y penetran en uno mismo. Las diferencias del conocimiento suelen ser la desventaja y tracción hacia el ser. En el arte encuentro ese interior que busqué afuera y encontré en mí."
     },
     {
@@ -40,15 +40,15 @@
         "image_list": [],
         "title": "Las Proyecciones del Artista",
         "subtitle": "mis proyecciones",
-        "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+        "text": "Cuando a uno le preguntan cuales son sus proyecciones considero que todos coincidimos en lo mismo, que es no joder al otro."
     },
     {
         "id": "4",
         "main_image": "/images/principal/4.jpg",
         "image_list": [],
         "title": "Obras del Artista",
-        "subtitle": "Obras en si",
-        "text": "Más de 300 son sus obras en su primer periodo. Solo falta recorrer los distintos puntos públicos donde el artista ha dejado su impronta. Su colección privada de obras es la que el artista desea acompañar en catálogo, de lcuales todas están a consideración y criterio del artista. El hecho de desprenderse alguna en caso de alguien querer poseerla."
+        "subtitle": "Más de 300 obras en su primer período",
+        "text": "Solo falta recorrer los distintos puntos públicos donde el artista ha dejado su impronta. Su colección privada de obras es la que el artista desea acompañar en catálogo, de lcuales todas están a consideración y criterio del artista. El hecho de desprenderse alguna en caso de alguien querer poseerla."
     },
     {
         "id": "5",
