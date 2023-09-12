@@ -12,7 +12,7 @@ export interface BlogItemProps {
 }
 
 const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
-  const { main_image, title, subtitle, text, id } = data
+  const { main_image, title, subtitle, text, id, image_list } = data
 
   const history = useRouter()
 
@@ -47,9 +47,11 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
           {text}
         </Text>
         <div>
-          <Button onClick={() => history.push(`/blogs/${id}`)}>
-            <p className={styles.blogItem__readmore}>Ver más</p>
-          </Button>
+          {image_list.length != 0 && (
+            <Button onClick={() => history.push(`/blogs/${id}`)}>
+              <p className={styles.blogItem__readmore}>Ver más</p>
+            </Button>
+          )}
         </div>
       </div>
     </div>
