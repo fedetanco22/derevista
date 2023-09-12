@@ -27,7 +27,7 @@ const BlogPage = (): JSX.Element => {
   return (
     <div>
       <ContentBox data={blogPost} />
-      <div className="container grid grid-cols-2 gap-1">
+      <div className="container grid grid-cols-1 gap-1">
         {blogPost.image_list.map((photo, idx) => {
           return (
             <div key={idx}>

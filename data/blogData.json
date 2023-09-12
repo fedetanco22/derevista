@@ -2,7 +2,15 @@
     {
         "id": "1",
         "main_image": "/images/artista.svg",
-        "image_list": [],
+        "image_list": [
+            "/images/flyers/1.svg",
+            "/images/flyers/2.svg",
+            "/images/flyers/3.svg",
+            "/images/flyers/4.svg",
+            "/images/flyers/5.svg",
+            "/images/flyers/6.jpg",
+            "/images/flyers/7.svg"
+        ],
         "title": "Llamarse artista en el simple arte",
         "subtitle": "Presentación",
         "text": "Es un artista vinculado pura y exclusivamente al reciclaje callejero, sus obras son con los desechos propios de la sociedad y puestos a favor de la belleza, en una transformación única e irrepetible. De ahí nace su verdadero poder."
