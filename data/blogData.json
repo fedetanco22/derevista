@@ -2,41 +2,76 @@
     {
         "id": "1",
         "main_image": "/images/artista.svg",
-        "image_list": ["image1", "image2", "image3"],
+        "image_list": [],
         "title": "Llamarse artista en el simple arte",
         "subtitle": "Presentación",
-        "text": "Llamarse artista en el simple arte de aprender. Cuando empecé a ordenar ideas y pensamientos, sabia sumergirte. Obra. De Revista es la obra a conocer para poder llegar al interior el artista y penetran en una misma.  La diferencia del conocimiento suele ser la y atracción hacia el ser. En el arte encuentro esa intención que busque afuera y encontré en mí."
+        "text": "Es un artista vinculado pura y exclusivamente al reciclaje callejero, sus obras son con los desechos propios de la sociedad y puestos a favor de la belleza, en una transformación única e irrepetible. De ahí nace su verdadero poder."
     },
     {
         "id": "2",
-        "main_image": "/images/arguello.svg",
-        "image_list": ["image1", "image2", "image3"],
+        "main_image": "/images/principal/2.svg",
+        "image_list": [
+            "/images/camino-al-arte/1.svg",
+            "/images/camino-al-arte/2.svg",
+            "/images/camino-al-arte/3.svg",
+            "/images/camino-al-arte/4.svg",
+            "/images/camino-al-arte/5.svg",
+            "/images/camino-al-arte/6.svg",
+            "/images/camino-al-arte/7.svg",
+            "/images/camino-al-arte/8.svg",
+            "/images/camino-al-arte/9.svg",
+            "/images/camino-al-arte/10.svg"
+        ],
         "title": "Más de 300 obras en su primer período",
         "subtitle": "mi camino al arte",
-        "text": "Más de 300 son sus obras en su primer periodo. Solo falta recorrer los distintos puntos públicos donde el artista ha dejado su impronta. Su colección privada de obras es la que el artista desea acompañar en catálogo, de las cuales todas están a consideración y criterio del artista. El hecho de desprenderse de alguna en caso de alguien querer poseerla."
+        "text": "Llamarse artista en el simple arte de aprender. Cuando empecé a desordenar ideas y ordenar pensamientos, salió semejante obra. De Revista es la obra a conocer para poder llegar al interior del artista y penetran en uno mismo. Las diferencias del conocimiento suelen ser la desventaja y tracción hacia el ser. En el arte encuentro ese interior que busqué afuera y encontré en mí."
     },
     {
         "id": "3",
-        "main_image": "/images/proyeccions.svg",
-        "image_list": ["image1", "image2", "image3"],
+        "main_image": "/images/principal/3.svg",
+        "image_list": [],
         "title": "Las Proyecciones del Artista",
         "subtitle": "mis proyecciones",
         "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
     },
     {
         "id": "4",
-        "main_image": "/images/obras.svg",
-        "image_list": ["image1", "image2", "image3"],
+        "main_image": "/images/principal/4.jpg",
+        "image_list": [],
         "title": "Obras del Artista",
         "subtitle": "Obras en si",
         "text": "Más de 300 son sus obras en su primer periodo. Solo falta recorrer los distintos puntos públicos donde el artista ha dejado su impronta. Su colección privada de obras es la que el artista desea acompañar en catálogo, de lcuales todas están a consideración y criterio del artista. El hecho de desprenderse alguna en caso de alguien querer poseerla."
     },
     {
         "id": "5",
-        "main_image": "/images/proyeccions.svg",
-        "image_list": ["image1", "image2", "image3"],
-        "title": "Titulo Nuevo",
-        "subtitle": "mis proyecciones",
-        "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."
+        "main_image": "/images/principal/5.svg",
+        "image_list": [],
+        "title": "El artista a recibido diversos reconocimientos",
+        "subtitle": "Reconocimientos",
+        "text": "Su Taller/Atelier denominado De Revista ha sido puesto en valor por distintas personalidades del Arte Argentino, incluyendolo dentro de los grandes artistas cordobeces en consecuencia del espacio generado donde nace su inspiración. Sus obras publicas han sido seleccionadas por los respectivos funcionarios y en consecuencia han sido donadas por el artista con el objetivo de tener el arte al alcance de todos."
+    },
+    {
+        "id": "6",
+        "main_image": "/images/principal/6.svg",
+        "image_list": [],
+        "title": "El arte en las villas",
+        "subtitle": "",
+        "text": "Fruto de sentir algún tipo de sensibilidad en mi corazón fue que decidí compartir mi conocimiento con aquel que no pudiera llegar acomprender la magnitud del arte. Fue así entonces que empecé a poner esculturas en las villas como una forma de inspirar a aquel que por su única condición de humano merece acercarse a Dios a través del conocimiento."
+    },
+    {
+        "id": "7",
+        "main_image": "/images/principal/7.svg",
+        "image_list": [],
+        "title": "Muestras",
+        "subtitle": "",
+        "text": "Dentro de un volumen único, la presentación de sus obras siempre han sido para el deleite del público. Su otra pasión es la gastronomía aprendida en los años de su niñez, de la mano de un grande del rubro cordobes. Luis Garzón, su padre fue un personaje típico de los mercados locales e internacionales de la fruta y verdura. Alto catador de quesos y excelente maestro probador. Capaz de ingerir en un día la cantidad de 30 mandarinas antes de un partido de fútbol. Su frase suena al día de hoy: “Una exquisitez” decía y devolvía no menos de 300 pepas a la tierra, ahi salen mas contaba."
+    },
+    {
+        "id": "8",
+        "main_image": "/images/principal/8.svg",
+        "image_list": [],
+        "title": "Poseen obras del artista",
+        "subtitle": "",
+        "text": ""
     }
 ]

@@ -5,4 +5,5 @@ export type BlogPostData = {
   subtitle: string
   text: string
   image_list: string[]
+  author_quote?: string
 }

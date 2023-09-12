@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 import styles from './BlogItem.module.scss'
 
@@ -11,7 +12,10 @@ export interface BlogItemProps {
 }
 
 const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
-  const { main_image, title, subtitle, text } = data
+  const { main_image, title, subtitle, text, id } = data
+
+  const history = useRouter()
+
   return (
     <div className={`${styles.blogItem} `}>
       <div className={`${styles.blogItem__image} images`}>
@@ -22,7 +26,7 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
           width="0"
           height="0"
           sizes={`(max-width: 768px) 100vw`}
-          style={{ width: '100%', height: 'auto' }}
+          style={{ width: '100%', height: 'auto', maxHeight: '411px' }}
           alt={title}
         />
       </div>
@@ -43,7 +47,7 @@ const BlogItem = ({ data }: BlogItemProps): JSX.Element => {
           {text}
         </Text>
         <div>
-          <Button>
+          <Button onClick={() => history.push(`/blogs/${id}`)}>
             <p className={styles.blogItem__readmore}>Ver más</p>
           </Button>
         </div>

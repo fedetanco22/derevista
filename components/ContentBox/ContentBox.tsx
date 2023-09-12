@@ -10,7 +10,7 @@ import styles from './ContentBox.module.scss'
 import { BlogPostData } from '@/types/types'
 
 const ContentBox: FC<{ data: BlogPostData }> = data => {
-  const { title, subtitle, text, main_image } = data.data
+  const { title, subtitle, text, main_image, author_quote } = data.data
 
   const router = useRouter()
 
@@ -27,7 +27,6 @@ const ContentBox: FC<{ data: BlogPostData }> = data => {
             >
               {subtitle}
             </Text>
-
             <Text
               as="h1"
               variant="headline-1"
@@ -36,8 +35,12 @@ const ContentBox: FC<{ data: BlogPostData }> = data => {
             >
               {title}
             </Text>
+
             <Text as="p" variant="body-1" color="light">
               {text}
+            </Text>
+            <Text as="p" variant="body-1" color="light">
+              {author_quote}
             </Text>
           </div>
           {router.route === '/' && (

@@ -1,6 +1,7 @@
 // pages/blog.tsx
 
 import React, { useRouter } from 'next/router'
+import Image from 'next/image'
 
 import blogData from '@/data/blogData.json'
 import ContentBox from '@/components/ContentBox/ContentBox'
@@ -18,7 +19,6 @@ const BlogPage = (): JSX.Element => {
 
   // Find the blog post based on the 'blogId' parameter
   const blogPost = getBlogPostById(blogId as string)
-  console.log('🚀 ~ file: [blogId].tsx:21 ~ BlogPage ~ blogPost:', blogPost)
 
   if (!blogPost) {
     return <div>BlogPage post not found.</div>
@@ -27,6 +27,23 @@ const BlogPage = (): JSX.Element => {
   return (
     <div>
       <ContentBox data={blogPost} />
+      <div className="container grid grid-cols-2 gap-1">
+        {blogPost.image_list.map((photo, idx) => {
+          return (
+            <div key={idx}>
+              <Image
+                src={photo}
+                alt={'photo'}
+                quality={100}
+                width="0"
+                height="0"
+                sizes={`(max-width: 768px) 100vw`}
+                style={{ width: '100%', height: 'auto' }}
+              />
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
