@@ -22,10 +22,15 @@
   &__informationText {
     color: var(--white);
     font-family: var(--body-1-font-family);
-    font-size: var(--body-1-font-size);
+    font-size: var(--body-2-font-size);
     font-style: var(--body-1-font-style);
     font-weight: var(--body-1-font-weight);
     letter-spacing: var(--body-1-letter-spacing);
     line-height: var(--body-1-line-height);
+    text-align: center;
+
+    @media screen and (min-width: 556px) {
+      font-size: var(--body-1-font-size);
+    }
   }
 }
